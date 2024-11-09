@@ -13,6 +13,6 @@ module org.aluguelcarros {
 
     opens org.aluguelcarros to javafx.fxml;
     exports org.aluguelcarros;
-    exports org.aluguelcarros.Controller;
-    opens org.aluguelcarros.Controller to javafx.fxml;
+    exports org.aluguelcarros.controller;
+    opens org.aluguelcarros.controller to javafx.fxml;
 }
