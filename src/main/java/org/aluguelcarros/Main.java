@@ -10,7 +10,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Main extends Application {
-    private String pathMainApp = "C:\\Users\\Unifan\\Desktop\\AluguelCarros\\aluguel-carros\\src\\main\\java\\org\\aluguelcarros\\View\\MainView.fxml";
+    private String pathMainApp = "C:\\Users\\Unifan\\Documents\\dev\\aluguel-carros\\src\\main\\java\\org\\aluguelcarros\\View\\MainView.fxml";
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader();
